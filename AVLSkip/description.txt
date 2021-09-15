@@ -1,0 +1,13 @@
+The program accepts the following commands from standard input, and it assumes all inputs are valid
+
+i key value coin - inserts an item (key, value) into both the AVL tree and skiplist and prints the number of key comparisons required by AVL.insert and skipList.insert, respectively, followed by a newline. Use the value coin as the number of heads flipped before a tail is reached when inserting into the skiplist.
+
+d key - deletes the item with the given key from both the AVL tree and skiplist and prints the number of key comparisons required by AVL.delete and skipList.delete, respectively, followed by a newline. For a BST, delete uses the inorder successor.
+
+savl key - searches the AVL tree for the item with the given key and prints the corresponding value or string ERROR if not found, the number of key comparisons used in the search, followed by a newline.
+ 
+ssl key - searches the skiplist for the item with the given key and prints the corresponding value or string ERROR if not found, the number of key comparisons used in the search, followed by a newline.
+
+stats - prints 3 int values followed by a newline corresponding to: number of items in the AVL tree/skiplist, height of the AVL tree, and total number of nodes in the skiplist (do not count +∞ or −∞). The runtime for this operation is Θ(1) time.
+
+r - initializes an empty AVL tree and skiplist. If a nonempty AVL tree or skiplist already exists, they are destroyed and new empty data structures are created.
