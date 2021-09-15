@@ -8,3 +8,10 @@ Priority queue:
 - included three different implementations of the priority queue data stracture
 - the first implementation used linked list, the second used max-heapd, and the third used a vector of queues
 - included runtime and space analysis for each implementation
+- check the description.txt file to see commands for the program
+
+AVLSkip:
+- implemented two realizations of dicionary using AVL-tree and skip list
+- check description.txt file to see commands for the program
+
+
