@@ -1,0 +1,4 @@
+In encode.cpp, the main function reads one line from cin, this is the text that will be encoded, assuming the text contains only lower case characters from the range ’a’....’z’. Use 12 bits per code for binary representations, i.e. the largest dictionary has 212 codewords. The output (to cout) will be the coded string, as a sequence of zeros and
+ones. Here a trie is used as dictionary for the code words.
+
+In decode.cpp, the main function reads one line from cin, this is the coded string that will be decoded, assuming the encoded string contains only zeros and ones. The output (to cout) will be the decoded string, printed out as a normal string, i.e. “abra”.
