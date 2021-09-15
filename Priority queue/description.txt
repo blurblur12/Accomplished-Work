@@ -1,0 +1,10 @@
+The three implementations are numbered 1(linked-list), 2(max-heap), and 3(vector of queues).
+i num priority - inserts an item (priority, timestamp) into priority queue num.
+
+d num - removes the item with the highest priority from priority queue num and prints the priority and timestamp to stdout - the two integers are separated by a space and a newline follows the second integer. If the priority queue is empty, does nothing.
+ 
+l num - prints (but does not remove) the item with the highest priority from priority queue num. Prints the priority and timestamp to stdout - the two integers are separated by a space and a newline follows the second integer. If the priority queue is empty, does nothing.
+
+r - initializes or resets all priority queues to be empty.
+
+x - terminates the program.
