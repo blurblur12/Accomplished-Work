@@ -11,7 +11,18 @@ Priority queue:
 - check the description.txt file to see commands for the program
 
 AVLSkip:
-- implemented two realizations of dicionary using AVL-tree and skip list
+- implements two realizations of dicionary using AVL-tree and skip list
 - check description.txt file to see commands for the program
 
+LZW Compression:
+- implements a variant of LZE compression
+- the source alphabet is the lower case English alphabet, coded alphabet is binary
+- two modeifications to the LZW:
+1. the initial dictionary consists of ’a’: 0, ’b’: 1, ’c’: 2,..., ’z’: 25 and ’aa’: 26, ’ab’: 27, ...., ’az’: 51,
+’ba’: 52, ’bb’: 53, ..., ’bz’: 77,
+...........................
+’za’: 676 , ’zb’: 677,..., ’zz’: 701
 
+2. at every iteration adds two new dictionary entries instead of one
+
+- check description.txt to see details about acceptable inputs
