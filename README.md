@@ -48,3 +48,8 @@ WLP4 Parser:
 - outputs a parse tree using preorder traversal
 - if the input is not recognized, error is delcared to standard error and the program terminates
 - check description.txt to see details about files in the directory
+
+WLP4 Compiler:
+- implements a compiler for a WLP4 program and compiles it to to assembly language program
+- reads the output of WLP4 parser as input, which should be the context-free parse of a WLP4 program
+- outputs the equivalent MIPS assembly code
