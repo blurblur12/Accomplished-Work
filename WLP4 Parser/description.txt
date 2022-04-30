@@ -1,0 +1,3 @@
+- wlp4parse.cc is the main function that handles input and output and declaring errors
+- parse.cc and parse.h implement the actual parser
+- intput.txt and output.txt give a possible input and output produced by the parser
