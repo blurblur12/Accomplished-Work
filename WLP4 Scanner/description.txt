@@ -1,2 +1,3 @@
 - wlp4scan.cc is the main function that handles inputs and outputs
 - scanner.h and scanner.cc implements the actual scanner functions
+- intput.txt and output.txt give an example of possible input and output of the scanner 
