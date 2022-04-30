@@ -1,5 +1,5 @@
 # Accomplished-Work
-C++ programs demonstrating applications of OOP, data abstraction, and various data structure including priority queue AVL tree, and skip lists, and LZW compression
+C++ programs demonstrating applications of OOP, data abstraction, various data structures, and computer architecture
 
 Straights:
 - a simplified straights card game implemented using object oriented programming and data abstraction, review the demo.pdf file to see functions and working features of the program
@@ -53,3 +53,10 @@ WLP4 Compiler:
 - implements a compiler for a WLP4 program and compiles it to to assembly language program
 - reads the output of WLP4 parser as input, which should be the context-free parse of a WLP4 program
 - outputs the equivalent MIPS assembly code
+
+Allocator:
+- includes two programs demonstrating memory allocation using free list algorithm
+- cons.cc implements the functionality of a10p2 using a10p1
+- malloc.cc: includes two functions namely mymalloc and myfree
+  - mymalloc: takes an argument called size and allocates a block of memory of at least size words, where a word is 32 bits, and returns the address of that memory or 0 (NULL) if memory could not be allocated
+  - myfree: takes an argument called address and deallocates the memory stored at address, assuming that address contains either an address allocated by mymalloc, in which case it deallocates that memory, or the value 0 (NULL), in which case myfree does nothing.
