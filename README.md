@@ -26,3 +26,9 @@ LZW Compression:
 2. at every iteration adds two new dictionary entries instead of one
 
 - check description.txt to see details about acceptable inputs
+
+MIPS Assembler:
+- implements an assembler for MIPS assembly language
+- reads from standard input a MIPS assembly language program
+- if input file is not a valid assembly language program, produce an error message in standard error and return
+- if the input contains a correct MIPS assembly language program, the assembler output the equivalent MIPS machine    language to standard output
