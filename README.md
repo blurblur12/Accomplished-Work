@@ -41,3 +41,10 @@ WLP4 Scanner:
 - WLP4 is a language developed by University of Waterloo for educational purpose:
 https://student.cs.uwaterloo.ca/~cs241/wlp4/WLP4tutorial.html
 - check description.txt to see details about files in the directory
+
+WLP4 Parser:
+- implements a parser for the WLP4 programming language
+- reads the output of WLP4 scanner as input, which should be a list of tokens and lexemes in the order of appearance
+- outputs a parse tree using preorder traversal
+- if the input is not recognized, error is delcared to standard error and the program terminates
+- check description.txt to see details about files in the directory
