@@ -1,0 +1,5 @@
+- asm is the compiled program
+- asm.cc is the source code for the assembler
+- scanner.cc and scanner.h are provided by University of Waterloo and implements a scanner to support the assembler that I wrote
+- input.txt is an example of possible input file
+- output.bin is the corresponding output
