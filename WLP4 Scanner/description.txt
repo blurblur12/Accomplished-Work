@@ -1,0 +1,2 @@
+- wlp4scan.cc is the main function that handles inputs and outputs
+- scanner.h and scanner.cc implements the actual scanner functions
