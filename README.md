@@ -60,3 +60,4 @@ Allocator:
 - malloc.cc: includes two functions namely mymalloc and myfree
   - mymalloc: takes an argument called size and allocates a block of memory of at least size words, where a word is 32 bits, and returns the address of that memory or 0 (NULL) if memory could not be allocated
   - myfree: takes an argument called address and deallocates the memory stored at address, assuming that address contains either an address allocated by mymalloc, in which case it deallocates that memory, or the value 0 (NULL), in which case myfree does nothing.
+- the programs a10p1 and a10p2 are both provided by the University of Waterloo
