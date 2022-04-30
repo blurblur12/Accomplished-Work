@@ -33,3 +33,11 @@ MIPS Assembler:
 - if input file is not a valid assembly language program, produce an error message in standard error and return
 - if the input contains a correct MIPS assembly language program, the assembler output the equivalent MIPS machine    language to standard output
 - check description.txt to see details about files in the directory
+
+WLP4 Scanner:
+- implements a scanner for the WLP4 programming language, which is a simplified C++ programming language
+- reads a WLP4 program from standard input and identify the tokens in the order they appear in the input
+- outputs the token and the lexeme (the string of characters making up the token) to standard output
+- WLP4 is a language developed by University of Waterloo for educational purpose:
+https://student.cs.uwaterloo.ca/~cs241/wlp4/WLP4tutorial.html
+- check description.txt to see details about files in the directory
