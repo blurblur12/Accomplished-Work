@@ -1,31 +1,5 @@
 # Accomplished-Work
-C++ programs demonstrating applications of OOP, data abstraction, various data structures, and computer architecture
-
-Straights:
-- a simplified straights card game implemented using object oriented programming and data abstraction, review the demo.pdf file to see functions and working features of the program
-
-Priority queue:
-- included three different implementations of the priority queue data stracture
-- the first implementation used linked list, the second used max-heapd, and the third used a vector of queues
-- included runtime and space analysis for each implementation
-- check the description.txt file to see commands for the program
-
-AVLSkip:
-- implements two realizations of dicionary using AVL-tree and skip list
-- check description.txt file to see commands for the program
-
-LZW Compression:
-- implements a variant of LZE compression
-- the source alphabet is the lower case English alphabet, coded alphabet is binary
-- two modeifications to the LZW:
-1. the initial dictionary consists of ’a’: 0, ’b’: 1, ’c’: 2,..., ’z’: 25 and ’aa’: 26, ’ab’: 27, ...., ’az’: 51,
-’ba’: 52, ’bb’: 53, ..., ’bz’: 77,
-...........................
-’za’: 676 , ’zb’: 677,..., ’zz’: 701
-
-2. at every iteration adds two new dictionary entries instead of one
-
-- check description.txt to see details about acceptable inputs
+C++ programs demonstrating applications of OOP, algorithm designs, data abstraction, various data structures, and computer architecture
 
 MIPS Assembler:
 - implements an assembler for MIPS assembly language
@@ -61,3 +35,29 @@ Allocator:
   - mymalloc: takes an argument called size and allocates a block of memory of at least size words, where a word is 32 bits, and returns the address of that memory or 0 (NULL) if memory could not be allocated
   - myfree: takes an argument called address and deallocates the memory stored at address, assuming that address contains either an address allocated by mymalloc, in which case it deallocates that memory, or the value 0 (NULL), in which case myfree does nothing.
 - the programs a10p1 and a10p2 are both provided by the University of Waterloo
+
+Straights:
+- a simplified straights card game implemented using object oriented programming and data abstraction, review the demo.pdf file to see functions and working features of the program
+
+Priority queue:
+- included three different implementations of the priority queue data stracture
+- the first implementation used linked list, the second used max-heapd, and the third used a vector of queues
+- included runtime and space analysis for each implementation
+- check the description.txt file to see commands for the program
+
+AVLSkip:
+- implements two realizations of dicionary using AVL-tree and skip list
+- check description.txt file to see commands for the program
+
+LZW Compression:
+- implements a variant of LZE compression
+- the source alphabet is the lower case English alphabet, coded alphabet is binary
+- two modeifications to the LZW:
+1. the initial dictionary consists of ’a’: 0, ’b’: 1, ’c’: 2,..., ’z’: 25 and ’aa’: 26, ’ab’: 27, ...., ’az’: 51,
+’ba’: 52, ’bb’: 53, ..., ’bz’: 77,
+...........................
+’za’: 676 , ’zb’: 677,..., ’zz’: 701
+
+2. at every iteration adds two new dictionary entries instead of one
+
+- check description.txt to see details about acceptable inputs
